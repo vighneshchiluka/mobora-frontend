@@ -1,5 +1,7 @@
 {
   "rewrites": [
-    { "source": "/((?!_next/|covers/|catalog/|favicon.ico).*)", "destination": "/index.html" }
+    { "source": "/wishlist", "destination": "/wishlist.html" },
+    { "source": "/wishlist/", "destination": "/wishlist.html" },
+    { "source": "/((?!_next/|covers/|catalog/|wishlist\\.html|favicon.ico).*)", "destination": "/index.html" }
   ]
 }
