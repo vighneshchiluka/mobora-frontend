@@ -1,0 +1,230 @@
+{
+  "_arrow-up-right-BMhPGY-W.js": {
+    "file": "_next/static/chunks/arrow-up-right-BMhPGY-W.js",
+    "name": "arrow-up-right",
+    "imports": [
+      "_theme-toggle-D-W5sI-f.js"
+    ]
+  },
+  "_artwork-modal-DBdN3aVR.js": {
+    "file": "_next/static/chunks/artwork-modal-DBdN3aVR.js",
+    "name": "artwork-modal",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "_dist-DmSj2DNE.js": {
+    "file": "_next/static/chunks/dist-DmSj2DNE.js",
+    "name": "dist",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "_framework-D_rUT4EX.js": {
+    "file": "_next/static/chunks/framework-D_rUT4EX.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js"
+    ]
+  },
+  "_package-CPvin3GJ.js": {
+    "file": "_next/static/chunks/package-CPvin3GJ.js",
+    "name": "package",
+    "imports": [
+      "_theme-toggle-D-W5sI-f.js"
+    ]
+  },
+  "_rolldown-runtime-C60lm6uB.js": {
+    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+    "name": "rolldown-runtime"
+  },
+  "_shop-shell-CWw73r26.js": {
+    "file": "_next/static/chunks/shop-shell-CWw73r26.js",
+    "name": "shop-shell",
+    "imports": [
+      "_wishlist-BhrxJGHF.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "_theme-toggle-D-W5sI-f.js": {
+    "file": "_next/static/chunks/theme-toggle-D-W5sI-f.js",
+    "name": "theme-toggle",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_dist-DmSj2DNE.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "_trash-2-CnhITFun.js": {
+    "file": "_next/static/chunks/trash-2-CnhITFun.js",
+    "name": "trash-2",
+    "imports": [
+      "_theme-toggle-D-W5sI-f.js"
+    ]
+  },
+  "_wishlist-BhrxJGHF.js": {
+    "file": "_next/static/chunks/wishlist-BhrxJGHF.js",
+    "name": "wishlist",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/account.tsx": {
+    "file": "_next/static/chunks/account--n_Z_cHj.js",
+    "name": "account",
+    "src": "components/account.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_wishlist-BhrxJGHF.js",
+      "_shop-shell-CWw73r26.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_arrow-up-right-BMhPGY-W.js",
+      "_package-CPvin3GJ.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/checkout.tsx": {
+    "file": "_next/static/chunks/checkout-B0J4wziO.js",
+    "name": "checkout",
+    "src": "components/checkout.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_wishlist-BhrxJGHF.js",
+      "_shop-shell-CWw73r26.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_trash-2-CnhITFun.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/orders.tsx": {
+    "file": "_next/static/chunks/orders-BnwUq1zI.js",
+    "name": "orders",
+    "src": "components/orders.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_artwork-modal-DBdN3aVR.js",
+      "components/checkout.tsx",
+      "_wishlist-BhrxJGHF.js",
+      "_shop-shell-CWw73r26.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_trash-2-CnhITFun.js",
+      "_package-CPvin3GJ.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/product-detail.tsx": {
+    "file": "_next/static/chunks/product-detail-CLb_1ZWN.js",
+    "name": "product-detail",
+    "src": "components/product-detail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "components/storefront.tsx",
+      "_wishlist-BhrxJGHF.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/storefront.tsx": {
+    "file": "_next/static/chunks/storefront-i4VW_Wcs.js",
+    "name": "storefront",
+    "src": "components/storefront.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_artwork-modal-DBdN3aVR.js",
+      "_wishlist-BhrxJGHF.js",
+      "_theme-toggle-D-W5sI-f.js",
+      "_trash-2-CnhITFun.js",
+      "_arrow-up-right-BMhPGY-W.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/theme-provider.tsx": {
+    "file": "_next/static/chunks/theme-provider-CPxvFnWL.js",
+    "name": "theme-provider",
+    "src": "components/theme-provider.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dist-DmSj2DNE.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/wishlist-page.tsx": {
+    "file": "_next/static/chunks/wishlist-page-BR09wQ8e.js",
+    "name": "wishlist-page",
+    "src": "components/wishlist-page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "components/storefront.tsx",
+      "_wishlist-BhrxJGHF.js",
+      "_shop-shell-CWw73r26.js",
+      "_arrow-up-right-BMhPGY-W.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
+    "file": "_next/static/chunks/app-route-prefetch-policy-Box9ZYJR.js",
+    "name": "app-route-prefetch-policy",
+    "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:vinext-app-browser-entry"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "_next/static/chunks/layout-segment-context-CnSIU3TR.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/streamed-icons.js": {
+    "file": "_next/static/chunks/streamed-icons-Dh0VjZc_.js",
+    "name": "streamed-icons",
+    "src": "node_modules/vinext/dist/shims/streamed-icons.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "_next/static/chunks/index-D6mFhs97.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
+      "components/account.tsx",
+      "components/product-detail.tsx",
+      "virtual:vinext-app-browser-entry",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "components/wishlist-page.tsx",
+      "components/theme-provider.tsx",
+      "components/orders.tsx",
+      "node_modules/vinext/dist/shims/streamed-icons.js",
+      "components/storefront.tsx",
+      "_theme-toggle-D-W5sI-f.js",
+      "components/checkout.tsx"
+    ]
+  }
+}

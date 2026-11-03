@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mobora-iphone-6s-aurora-wave",
+    "name": "Aurora Wave",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "blue",
+    "image": "/covers/mobora-iphone-6s/aurora-wave.avif",
+    "model": "iPhone 6S"
+  },
+  {
+    "id": "mobora-iphone-6s-plus-terracotta-contours",
+    "name": "Terracotta Contours",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-iphone-6s-plus/terracotta-contours.avif",
+    "model": "iPhone 6S Plus"
+  },
+  {
+    "id": "mobora-asus-zenfone-max-pro-m1-zb601kl-forest-botanical",
+    "name": "Forest Botanical",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "green",
+    "image": "/covers/mobora-asus-zenfone-max-pro-m1-zb601kl/forest-botanical.avif",
+    "model": "Asus Zenfone Max Pro M1 Zb601Kl"
+  }
+]

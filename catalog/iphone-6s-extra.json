@@ -1,0 +1,9 @@
+[
+  {"id":"mobora-celestial-ink","name":"Celestial Ink","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"blue","image":"/covers/mobora-iphone-6s/celestial-ink.avif","model":"iPhone 6S"},
+  {"id":"mobora-peach-bloom","name":"Peach Bloom","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"pink","image":"/covers/mobora-iphone-6s/peach-bloom.avif","model":"iPhone 6S"},
+  {"id":"mobora-ocean-mosaic","name":"Ocean Mosaic","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"blue","image":"/covers/mobora-iphone-6s/ocean-mosaic.avif","model":"iPhone 6S"},
+  {"id":"mobora-citrus-lines","name":"Citrus Lines","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"orange","image":"/covers/mobora-iphone-6s/citrus-lines.avif","model":"iPhone 6S"},
+  {"id":"mobora-wild-meadow","name":"Wild Meadow","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"green","image":"/covers/mobora-iphone-6s/wild-meadow.avif","model":"iPhone 6S"},
+  {"id":"mobora-noir-geometry","name":"Noir Geometry","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"cream","image":"/covers/mobora-iphone-6s/noir-geometry.avif","model":"iPhone 6S"},
+  {"id":"mobora-lavender-orbit","name":"Lavender Orbit","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"lilac","image":"/covers/mobora-iphone-6s/lavender-orbit.avif","model":"iPhone 6S"}
+]

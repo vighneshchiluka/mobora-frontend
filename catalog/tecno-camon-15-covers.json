@@ -1,0 +1,90 @@
+[
+  {
+    "id": "mobora-tecno-camon-15-midnight-circuit",
+    "name": "Midnight Circuit",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/midnight-circuit.avif",
+    "model": "Tecno Camon 15"
+  },
+  {
+    "id": "mobora-tecno-camon-15-terracotta-atlas",
+    "name": "Terracotta Atlas",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/terracotta-atlas.avif",
+    "model": "Tecno Camon 15"
+  },
+  {
+    "id": "mobora-tecno-camon-15-monsoon-garden",
+    "name": "Monsoon Garden",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/monsoon-garden.avif",
+    "model": "Tecno Camon 15"
+  },
+  {
+    "id": "mobora-tecno-camon-15-lavender-grid",
+    "name": "Lavender Grid",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/lavender-grid.avif",
+    "model": "Tecno Camon 15"
+  },
+  {
+    "id": "mobora-tecno-camon-15-solar-drift",
+    "name": "Solar Drift",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/solar-drift.avif",
+    "model": "Tecno Camon 15"
+  },
+  {
+    "id": "mobora-tecno-camon-15-ocean-pulse",
+    "name": "Ocean Pulse",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/ocean-pulse.avif",
+    "model": "Tecno Camon 15"
+  },
+  {
+    "id": "mobora-tecno-camon-15-koi-after-dark",
+    "name": "Koi After Dark",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/koi-after-dark.avif",
+    "model": "Tecno Camon 15"
+  },
+  {
+    "id": "mobora-tecno-camon-15-paper-planes",
+    "name": "Paper Planes",
+    "type": "Printed covers",
+    "art": "mobora",
+    "price": 199,
+    "label": "ORIGINAL MOBORA DESIGN",
+    "color": "cream",
+    "image": "/covers/mobora-tecno-camon-15/paper-planes.avif",
+    "model": "Tecno Camon 15"
+  }
+]

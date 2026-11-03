@@ -1,0 +1,9 @@
+[
+  {"id":"mobora-amber-strata","name":"Amber Strata","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"orange","image":"/covers/mobora-iphone-6s-plus/amber-strata.avif","model":"iPhone 6S Plus"},
+  {"id":"mobora-night-botanica","name":"Night Botanica","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"green","image":"/covers/mobora-iphone-6s-plus/night-botanica.avif","model":"iPhone 6S Plus"},
+  {"id":"mobora-blue-current","name":"Blue Current","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"blue","image":"/covers/mobora-iphone-6s-plus/blue-current.avif","model":"iPhone 6S Plus"},
+  {"id":"mobora-coral-tiles","name":"Coral Tiles","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"pink","image":"/covers/mobora-iphone-6s-plus/coral-tiles.avif","model":"iPhone 6S Plus"},
+  {"id":"mobora-sage-press","name":"Sage Press","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"green","image":"/covers/mobora-iphone-6s-plus/sage-press.avif","model":"iPhone 6S Plus"},
+  {"id":"mobora-copper-bloom","name":"Copper Bloom","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"orange","image":"/covers/mobora-iphone-6s-plus/copper-bloom.avif","model":"iPhone 6S Plus"},
+  {"id":"mobora-indigo-atlas","name":"Indigo Atlas","type":"Printed covers","art":"mobora","price":199,"label":"ORIGINAL MOBORA DESIGN","color":"blue","image":"/covers/mobora-iphone-6s-plus/indigo-atlas.avif","model":"iPhone 6S Plus"}
+]
