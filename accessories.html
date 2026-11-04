@@ -62,6 +62,52 @@
     .search-row .search-field input{padding-left:45px}
     @media(max-width:900px){.clean-catalog .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.clean-header .header-actions{gap:13px}.clean-header .header-actions>a span{display:none}}
     @media(max-width:700px){.clean-header{padding:18px 5%;min-height:110px;flex-wrap:wrap}.clean-header .logo{width:auto;margin-right:auto}.clean-header nav{order:3;width:100%;justify-content:flex-start;gap:22px}.clean-header .header-actions{position:static}.clean-store .clean-catalog{padding:24px 16px 40px!important}.clean-toolbar{flex-direction:column;align-items:stretch}.clean-toolbar .search-row{width:100%;flex-basis:auto}.clean-toolbar .filter-select{width:100%;flex-basis:auto}.clean-catalog .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}.clean-catalog .product-art{height:240px}.clean-catalog .accessory-product-art{min-height:240px}.clean-catalog .product-kicker{margin:13px 12px 6px;font-size:9px}.clean-catalog .product-title{padding:0 12px}.clean-catalog .product-title h3{font-size:14px}.clean-catalog .clean-product-bottom{padding:10px 12px 14px}.clean-catalog .clean-product-bottom>span{font-size:18px}.clean-catalog .clean-product-bottom button{padding:7px 10px;font-size:11px}.clean-catalog .heart-button{right:9px;top:9px}.toast{left:16px;right:16px;bottom:16px;max-width:none}}
+    /* Match the original storefront catalog: category tabs, filters, count and sort. */
+    .clean-store .clean-intro,.clean-store .accessories-main{max-width:1440px;padding-left:4%;padding-right:4%}
+    .clean-store .clean-catalog.catalog{max-width:1440px;margin:46px auto 0;padding:0 4% 36px!important;border:0;border-radius:0;background:transparent}
+    .clean-store .catalog-heading{margin-bottom:22px}
+    .clean-store .catalog-heading h2{font-size:27px;font-weight:400;letter-spacing:-.8px}
+    .clean-store .catalog-heading p{font-size:14px}
+    .category-nav{margin:24px 0 26px;gap:8px}
+    .category-nav button{border-radius:4px;padding:10px 15px;background:transparent}
+    .category-nav button.active,.category-nav button:hover{background:#252525;border-color:#252525}
+    .catalog-layout{display:grid;grid-template-columns:195px minmax(0,1fr);gap:26px;align-items:start}
+    .filter-sidebar{background:#1a2116;border:1px solid #34422a;border-radius:11px;padding:17px 15px;color:#b7c2ac}
+    .filter-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-bottom:14px;border-bottom:1px solid #34422a}
+    .filter-heading h3{font-size:17px;font-weight:400;margin:0;color:#d6dccf}
+    .filter-heading button{border:0;background:none;color:#dcb294;font-size:12px;padding:0;text-decoration:underline}
+    .filter-section{padding:18px 0;border-bottom:1px solid #2d332c}
+    .filter-section h4{margin:0 0 13px;color:#d6dccf;font-size:14px;font-weight:500}
+    .filter-radio-list{display:grid;gap:12px}
+    .filter-radio-list label{display:flex;align-items:center;gap:8px;font-size:12px;color:#b0b9a7;cursor:pointer}
+    .filter-radio-list input{accent-color:#e99b6d}
+    .filter-radio-list small{margin-left:auto;color:#8c9683}
+    .price-inputs{display:grid;grid-template-columns:1fr 12px 1fr;gap:5px;align-items:end;color:#a1ac99;font-size:11px}
+    .price-inputs label{display:grid;gap:5px}
+    .price-inputs input{width:100%;min-width:0;background:#1b201a;border:1px solid #384032;color:#e6e9dd;border-radius:6px;padding:8px;font-size:12px}
+    .budget-buttons{display:grid;gap:9px;margin-top:14px}
+    .budget-buttons button{border:0;background:transparent;color:#b3bca9;text-align:left;padding:0;font-size:12px}
+    .budget-buttons button.active{color:#eed8bf}
+    .filter-select{max-width:none;width:100%;border-radius:6px;padding:9px 10px}
+    .filter-label{display:grid;gap:8px;color:#b0b9a7;font-size:12px}
+    .filter-footnote{color:#919b88;font-size:10px;line-height:1.6;margin:16px 0 0}
+    .catalog-results{min-width:0}
+    .clean-toolbar{display:flex;align-items:center;gap:16px;margin:0 0 14px;padding:0 0 14px;border-bottom:1px solid #2e342b}
+    .result-count{color:#9ca591;font-size:14px}
+    .sort-label{margin-left:auto;display:flex;align-items:center;gap:10px;color:#9ca591;font-size:12px;white-space:nowrap}
+    .sort-label select{color:#e1e2d3;background:#171c16;border:1px solid #363e2f;border-radius:6px;padding:8px 10px}
+    .catalog-search{display:none;position:relative;margin:0 0 16px}
+    .catalog-search.open{display:block}
+    .catalog-search input{width:100%;background:#111710;border:1px solid #46563b;color:var(--text);border-radius:999px;padding:12px 16px;outline:none}
+    .mobile-filter-button{display:none;border:1px solid #3e4835;color:#c3d0b6;background:transparent;border-radius:6px;padding:8px 11px;font-size:12px}
+    .accessory-phone-grip{position:relative;width:125px;height:237px;border:4px solid #29312f;border-radius:23px;background:linear-gradient(135deg,#f5ad5e,#e78140 60%,#cc6336);box-shadow:7px 12px 16px #26302735;transform:rotate(-8deg);overflow:hidden}
+    .accessory-phone-grip .camera-block{position:absolute;left:6px;top:7px;width:43px;height:58px;border-radius:10px;background:#34434a;border:2px solid #1e2928;box-shadow:inset -4px -4px 7px #18201d66}
+    .accessory-phone-grip .camera-block i{position:absolute;width:14px;height:14px;border-radius:50%;background:#17201f;border:2px solid #78878a;box-shadow:inset 0 0 0 2px #2b3433}
+    .accessory-phone-grip .camera-block i:nth-child(1){left:5px;top:5px}.accessory-phone-grip .camera-block i:nth-child(2){right:5px;top:12px}.accessory-phone-grip .camera-block i:nth-child(3){left:6px;bottom:6px}
+    .accessory-phone-grip .camera-block:after{content:'';position:absolute;right:6px;bottom:9px;width:7px;height:7px;border-radius:50%;background:#f4d58e}
+    .accessory-phone-grip .grip-art{position:absolute;right:21px;bottom:35px;width:63px;height:63px;border-radius:50%;display:grid;place-items:center;background:#bc5d31;color:#f9d9b2;font-size:42px;line-height:1;box-shadow:inset -7px -8px 9px #7d352566}
+    @media(max-width:900px){.catalog-layout{grid-template-columns:1fr}.filter-sidebar{display:none}.filter-sidebar.filters-open{display:block}.mobile-filter-button{display:inline-flex}.clean-catalog .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:700px){.clean-store .clean-catalog.catalog{padding:0 16px 40px!important;margin-top:36px}.catalog-layout{gap:16px}.clean-toolbar{gap:10px}.sort-label{margin-left:auto}.sort-label select{padding:7px 8px}.clean-catalog .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}}
   </style>
 </head>
 <body>
@@ -90,10 +136,22 @@
     <div class="collection-pills"><span>✦ Everyday useful</span><span>USB-C ready</span><span>Designed with care in Mumbai</span></div>
     <section class="clean-catalog catalog" id="shop" aria-labelledby="shop-heading">
       <div class="catalog-heading"><div><h2 id="shop-heading">Shop accessories</h2><p>Grips, cables, chargers and screen protection.</p></div></div>
-      <div class="clean-toolbar"><div class="search-row"><label class="search-field"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><input id="search" type="search" placeholder="Search accessories" aria-label="Search accessories"></label></div><select id="compatibility" class="filter-select" aria-label="Filter by compatibility"><option>All compatibility</option><option>General use</option><option>USB-C devices</option><option>Model-specific</option></select></div>
       <div class="category-nav" aria-label="Accessory categories"><button class="active" data-category="All accessories">All accessories</button><button data-category="Phone grips">Phone grips</button><button data-category="Cables">Cables</button><button data-category="Chargers">Chargers</button><button data-category="Screen protectors">Screen protectors</button></div>
-      <div class="product-grid" id="products"></div>
-      <p class="price-note">Check compatibility before ordering. <a href="/mobile-cover">Looking for a customised phone cover? Explore covers →</a></p>
+      <div class="catalog-layout">
+        <aside class="filter-sidebar" id="filterSidebar" aria-label="Product filters">
+          <div class="filter-heading"><h3>Filters</h3><button id="clearFilters" type="button">Clear all</button></div>
+          <div class="filter-section"><h4>Price</h4><div class="price-inputs"><label>Min ₹<input id="minPrice" type="number" min="0" placeholder="0" aria-label="Minimum price"></label><span>–</span><label>Max ₹<input id="maxPrice" type="number" min="0" placeholder="Any" aria-label="Maximum price"></label></div><div class="budget-buttons"><button type="button" data-price="under">○ Under ₹200</button><button type="button" data-price="mid">○ ₹200 – ₹299</button><button type="button" data-price="high">○ ₹300 – ₹499</button></div></div>
+          <div class="filter-section"><h4>Category</h4><div class="filter-radio-list"><label><input type="radio" name="filter-category" data-filter-category value="All accessories" checked><span>All accessories</span><small>4</small></label><label><input type="radio" name="filter-category" data-filter-category value="Phone grips"><span>Phone grips</span><small>1</small></label><label><input type="radio" name="filter-category" data-filter-category value="Cables"><span>Cables</span><small>1</small></label><label><input type="radio" name="filter-category" data-filter-category value="Chargers"><span>Chargers</span><small>1</small></label><label><input type="radio" name="filter-category" data-filter-category value="Screen protectors"><span>Screen protectors</span><small>1</small></label></div></div>
+          <div class="filter-section"><label class="filter-label">Compatibility<select id="compatibility" class="filter-select" aria-label="Filter by compatibility"><option>All compatibility</option><option>General use</option><option>USB-C devices</option><option>Model-specific</option></select></label></div>
+          <p class="filter-footnote">Prices shown are indicative.<br>Final details confirmed on enquiry.</p>
+        </aside>
+        <div class="catalog-results">
+          <div class="clean-toolbar"><button class="mobile-filter-button" id="filterToggle" type="button" aria-expanded="false">☷ Filters</button><span class="result-count" id="resultCount" role="status">4 designs</span><label class="sort-label">Sort by<select id="sort" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name: A–Z</option></select></label></div>
+          <label class="catalog-search" id="searchWrap"><input id="search" type="search" placeholder="Search accessories" aria-label="Search accessories"></label>
+          <div class="product-grid" id="products"></div>
+          <p class="price-note">Check compatibility before ordering. <a href="/mobile-cover">Looking for a customised phone cover? Explore covers →</a></p>
+        </div>
+      </div>
     </section>
     <section class="info" style="font-size:14px;max-width:760px"><h2 style="color:var(--text);font-size:24px;font-weight:500">Mobile accessories in India</h2><p>Explore everyday phone grips, USB-C cables, chargers and screen protectors. Use the category and compatibility filters to narrow your selection. Product specifications, fit and delivery details are confirmed before purchase.</p></section>
   </main>
@@ -115,17 +173,25 @@
   function showToast(message){toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),1800)}
   function updateBag(){ const count=bag.reduce((n,x)=>n+(Number(x.quantity)||1),0); $('#bagCount').textContent=count; $('#bagButton').setAttribute('aria-label','Open bag, '+count+' items'); }
   function updateWishlist(){ $('#wishCount').textContent=wishlist.size; }
-  function render(){
-    const query=$('#search').value.trim().toLowerCase(),compat=$('#compatibility').value,active=$('.category-nav button.active')?.dataset.category||'All accessories';
-    const visible=items.filter(p=>(active==='All accessories'||p.category===active)&&(compat==='All compatibility'||p.compat===compat)&&p.name.toLowerCase().includes(query));
-    $('#products').innerHTML=visible.map(p=>`<article class="product"><button class="heart-button ${wishlist.has(p.id)?'saved':''}" data-wish="${p.id}" aria-label="${wishlist.has(p.id)?'Remove from':'Add to'} wishlist: ${p.name}">${wishlist.has(p.id)?'♥':'♡'}</button><div class="product-art accessory-product-art"><div class="accessory-art accessory-${p.art}"><span></span><i></i><b>m.</b></div></div><p class="product-kicker">${p.category}</p><div class="product-title"><h3><a href="#shop">${p.name}</a></h3></div><div class="clean-product-bottom"><span>₹${p.price}<small>Make it yours</small></span><button data-add="${p.id}">${p.id==='glass'?'Select model':'Add to bag'} <span>＋</span></button></div></article>`).join('')||'<p class="info">No accessories match those filters.</p>';
+   function render(){
+     const query=$('#search').value.trim().toLowerCase(),compat=$('#compatibility').value,active=$('.category-nav button.active')?.dataset.category||'All accessories';
+     const min=Number($('#minPrice').value||0),max=Number($('#maxPrice').value||Infinity);
+     const sort=$('#sort').value;
+     const visible=items.filter(p=>(active==='All accessories'||p.category===active)&&(compat==='All compatibility'||p.compat===compat)&&p.price>=min&&p.price<=max&&p.name.toLowerCase().includes(query)).sort((a,b)=>sort==='low'?a.price-b.price:sort==='high'?b.price-a.price:sort==='name'?a.name.localeCompare(b.name):0);
+     $('#resultCount').textContent=visible.length+' '+(visible.length===1?'design':'designs');
+     document.querySelectorAll('[data-filter-category]').forEach(input=>input.checked=input.value===active);
+     $('#products').innerHTML=visible.map(p=>`<article class="product"><button class="heart-button ${wishlist.has(p.id)?'saved':''}" data-wish="${p.id}" aria-label="${wishlist.has(p.id)?'Remove from':'Add to'} wishlist: ${p.name}">${wishlist.has(p.id)?'♥':'♡'}</button><div class="product-art accessory-product-art">${p.id==='grip'?'<div class="accessory-phone-grip"><span class="camera-block"><i></i><i></i><i></i></span><span class="grip-art">✳</span></div>':'<div class="accessory-art accessory-'+p.art+'"><span></span><i></i><b>m.</b></div>'}</div><p class="product-kicker">${p.category}</p><div class="product-title"><h3><a href="#shop">${p.name}</a></h3></div><div class="clean-product-bottom"><span>₹${p.price}<small>Make it yours</small></span><button data-add="${p.id}">${p.id==='glass'?'Select model':'Add to bag'} <span>＋</span></button></div></article>`).join('')||'<p class="info">No accessories match those filters.</p>';
     document.querySelectorAll('[data-wish]').forEach(btn=>btn.onclick=()=>{const id=btn.dataset.wish;if(wishlist.has(id))wishlist.delete(id);else wishlist.add(id);write('mobora-wishlist',[...wishlist]);updateWishlist();render();showToast(wishlist.has(id)?'Saved to wishlist':'Removed from wishlist')});
     document.querySelectorAll('[data-add]').forEach(btn=>btn.onclick=()=>{const p=items.find(x=>x.id===btn.dataset.add);if(p.id==='glass'){showToast('Select your phone model on the cover page');location.href='/mobile-cover';return}const existing=bag.find(x=>x.id===p.id);if(existing)existing.quantity=(Number(existing.quantity)||1)+1;else bag.push({id:p.id,name:p.name,model:'Universal',price:p.price,quantity:1});write('mobora-bag',bag);updateBag();showToast(p.name+' added to bag')});
   }
-  document.querySelectorAll('[data-category]').forEach(btn=>btn.onclick=()=>{document.querySelectorAll('[data-category]').forEach(x=>x.classList.remove('active'));btn.classList.add('active');render()});
-  $('#search').oninput=render; $('#compatibility').onchange=render; $('#bagButton').onclick=()=>location.href='/checkout';
+   document.querySelectorAll('[data-category]').forEach(btn=>btn.onclick=()=>{document.querySelectorAll('[data-category]').forEach(x=>x.classList.remove('active'));btn.classList.add('active');render()});
+   document.querySelectorAll('[data-filter-category]').forEach(input=>input.onchange=()=>{const value=input.value;document.querySelectorAll('[data-category]').forEach(x=>x.classList.toggle('active',x.dataset.category===value));render()});
+   document.querySelectorAll('[data-price]').forEach(btn=>btn.onclick=()=>{const range=btn.dataset.price;$('#minPrice').value=range==='mid'?'200':range==='high'?'300':'';$('#maxPrice').value=range==='under'?'199':range==='mid'?'299':range==='high'?'499':'';document.querySelectorAll('[data-price]').forEach(x=>x.classList.toggle('active',x===btn));render()});
+   $('#minPrice').oninput=render; $('#maxPrice').oninput=render; $('#search').oninput=render; $('#compatibility').onchange=render; $('#sort').onchange=render; $('#clearFilters').onclick=()=>{document.querySelector('[data-category="All accessories"]').click();$('#minPrice').value='';$('#maxPrice').value='';$('#compatibility').value='All compatibility';document.querySelectorAll('[data-price]').forEach(x=>x.classList.remove('active'));render()};
+   $('#filterToggle').onclick=()=>{const sidebar=$('#filterSidebar'),open=sidebar.classList.toggle('filters-open');$('#filterToggle').setAttribute('aria-expanded',open?'true':'false');};
+   $('#bagButton').onclick=()=>location.href='/checkout';
   $('#customiseButton').onclick=()=>location.href='/mobile-cover';
-  $('#searchToggle').onclick=()=>{ $('#search').focus(); $('#shop').scrollIntoView({behavior:'smooth',block:'start'}); };
+   $('#searchToggle').onclick=()=>{const wrap=$('#searchWrap');wrap.classList.toggle('open');if(wrap.classList.contains('open')){$('#shop').scrollIntoView({behavior:'smooth',block:'start'});setTimeout(()=>$('#search').focus(),250)}};
   const savedTheme=localStorage.getItem('mobora-theme')||'dark'; document.documentElement.setAttribute('data-theme',savedTheme); $('#themeToggle').setAttribute('aria-checked',savedTheme==='dark'?'true':'false');
   $('#themeToggle').onclick=()=>{const next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',next);localStorage.setItem('mobora-theme',next);$('#themeToggle').setAttribute('aria-checked',next==='dark'?'true':'false')};
   updateWishlist(); updateBag(); render();
