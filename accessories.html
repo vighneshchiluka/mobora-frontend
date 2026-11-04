@@ -111,6 +111,7 @@
     @media(max-width:425px){.clean-catalog .product-grid{grid-template-columns:1fr;gap:18px}.clean-catalog .product-art{height:300px}.clean-catalog .accessory-product-art{min-height:300px}}
 
     /* Keep the accessories header pixel-consistent with the mobile-cover header. */
+    html{scrollbar-gutter:stable}
     .clean-store > .clean-header{box-sizing:border-box;max-width:1440px;min-height:85px;margin:0 auto;padding:25px 4%;gap:25px;background:#111313;border-bottom:1px solid #2b2e2c}
     .clean-store > .clean-header > .logo{font-size:28px;letter-spacing:-1.8px;margin-right:auto;color:#f6f1e9}
     .clean-store > .clean-header > .logo span{color:#f27b54;margin-left:6px}
@@ -125,23 +126,32 @@
     .clean-store > .clean-header > .header-actions .theme-toggle-thumb{width:23px;height:23px;border-radius:50%;background:#efc795;display:block;position:absolute;right:3px;top:2px}
     .clean-store > .clean-header > .header-actions .theme-toggle svg{position:relative;z-index:1;width:14px;height:14px}
     .clean-store > .clean-header > .header-actions .bag-button span{background:#f4f4f4;color:#26301f;border-radius:50%;font-size:10px;min-width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center}
+    @media(max-width:1100px){.clean-store > .clean-header{padding-inline:24px}}
+    @media(max-width:920px){.clean-store > .clean-header > nav{gap:18px}.clean-store > .clean-header .nav-label{display:none}}
     @media(max-width:800px){
-      .clean-store > .clean-header{flex-wrap:wrap;gap:20px;padding:18px 5%}
-      .clean-store > .clean-header > nav{border-top:1px solid #303c26;order:3;justify-content:center;gap:30px;width:100%;padding-top:14px}
+      .clean-store > .clean-header{flex-wrap:wrap;gap:14px;padding-top:16px}
+      .clean-store > .clean-header > nav{gap:clamp(18px,7vw,34px);padding-top:12px}
+      .clean-store > .clean-header > .header-actions{gap:8px;min-width:0}
+      .clean-store > .clean-header .wishlist-link{padding:8px}
+      .clean-store > .clean-header .wishlist-link>span,.clean-store > .clean-header .account-link>span{display:none}
     }
     @media(max-width:640px){
       .clean-store > .clean-header{gap:14px;min-height:0;padding:16px 18px 0}
       .clean-store > .clean-header > .logo{font-size:24px}
       .clean-store > .clean-header > .logo span{font-size:27px}
       .clean-store > .clean-header > .header-actions{gap:14px}
-      .clean-store > .clean-header > nav{gap:32px;padding:8px 0;margin-top:3px}
-      .clean-store > .clean-header > nav a,.clean-store > .clean-header > nav button{font-size:12px;padding:7px 0}
+      .clean-store > .clean-header > nav{border-top:1px solid #f3f3f3;order:3;justify-content:center;gap:32px;width:100%;margin-top:3px;padding:8px 0}
+      .clean-store > .clean-header > nav a,.clean-store > .clean-header > nav button{font-size:10px;padding:7px 0}
       .clean-store > .clean-header > nav .nav-active:after{bottom:-9px}
     }
-    @media(max-width:425px){
+    @media(max-width:560px){
       .clean-store > .clean-header{padding-inline:14px}
+      .clean-store > .clean-header > .logo{font-size:23px}
+      .clean-store > .clean-header > .logo span{font-size:27px}
       .clean-store > .clean-header > nav{gap:clamp(14px,7vw,29px);font-size:11px}
-      .clean-store > .clean-header > nav a,.clean-store > .clean-header > nav button{font-size:11px}
+      .clean-store > .clean-header > nav a,.clean-store > .clean-header > nav button{font-size:11px;min-height:38px;display:inline-flex;align-items:center}
+      .clean-store > .clean-header > .header-actions>button:not(.theme-toggle),.clean-store > .clean-header > .header-actions>a:not(.wishlist-link),.clean-store > .clean-header > .header-actions .wishlist-link{min-width:36px;min-height:36px;justify-content:center}
+      .clean-store > .clean-header > .header-actions .theme-toggle{width:43px;min-width:43px}
     }
   </style>
 </head>
