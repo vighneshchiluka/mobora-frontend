@@ -38,7 +38,7 @@
     .clean-header .bag-button span{background:#f4f4f4;color:#26301f;border-radius:50%;font-size:10px;min-width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center}
     .clean-header .nav-label{background:#5f442c;color:#f2b27e;border-radius:3px;font-size:8px;padding:3px 5px;letter-spacing:.4px}
     .clean-intro{max-width:1200px;margin:auto;padding:48px 5% 0}
-    .clean-catalog{max-width:1200px;margin:48px auto 0;padding:28px 5% 70px;border:1px solid var(--line);border-radius:18px;background:#161e15}
+    .clean-store .clean-catalog{max-width:1200px;margin:48px auto 0;padding:28px 28px 70px!important;border:1px solid var(--line);border-radius:18px;background:#161e15}
     .clean-catalog .product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
     .clean-catalog .product{border:1px solid var(--line);border-radius:14px;background:#1a2318;overflow:hidden;position:relative;display:flex;flex-direction:column}
     .clean-catalog .product-art{height:300px;border-radius:0;background:#f1e9bd;display:grid;place-items:center;position:relative;overflow:hidden;padding:20px}
@@ -61,7 +61,7 @@
     .search-row .search-field svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#a9b89a}
     .search-row .search-field input{padding-left:45px}
     @media(max-width:900px){.clean-catalog .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.clean-header .header-actions{gap:13px}.clean-header .header-actions>a span{display:none}}
-    @media(max-width:700px){.clean-header{padding:18px 5%;min-height:110px;flex-wrap:wrap}.clean-header .logo{width:auto;margin-right:auto}.clean-header nav{order:3;width:100%;justify-content:flex-start;gap:22px}.clean-header .header-actions{position:static}.clean-toolbar{flex-direction:column;align-items:stretch}.clean-toolbar .search-row{width:100%;flex-basis:auto}.clean-toolbar .filter-select{width:100%;flex-basis:auto}.clean-catalog .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}.clean-catalog .product-art{height:240px}.clean-catalog .accessory-product-art{min-height:240px}.clean-catalog .product-kicker{margin:13px 12px 6px;font-size:9px}.clean-catalog .product-title{padding:0 12px}.clean-catalog .product-title h3{font-size:14px}.clean-catalog .clean-product-bottom{padding:10px 12px 14px}.clean-catalog .clean-product-bottom>span{font-size:18px}.clean-catalog .clean-product-bottom button{padding:7px 10px;font-size:11px}.clean-catalog .heart-button{right:9px;top:9px}}
+    @media(max-width:700px){.clean-header{padding:18px 5%;min-height:110px;flex-wrap:wrap}.clean-header .logo{width:auto;margin-right:auto}.clean-header nav{order:3;width:100%;justify-content:flex-start;gap:22px}.clean-header .header-actions{position:static}.clean-store .clean-catalog{padding:24px 16px 40px!important}.clean-toolbar{flex-direction:column;align-items:stretch}.clean-toolbar .search-row{width:100%;flex-basis:auto}.clean-toolbar .filter-select{width:100%;flex-basis:auto}.clean-catalog .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}.clean-catalog .product-art{height:240px}.clean-catalog .accessory-product-art{min-height:240px}.clean-catalog .product-kicker{margin:13px 12px 6px;font-size:9px}.clean-catalog .product-title{padding:0 12px}.clean-catalog .product-title h3{font-size:14px}.clean-catalog .clean-product-bottom{padding:10px 12px 14px}.clean-catalog .clean-product-bottom>span{font-size:18px}.clean-catalog .clean-product-bottom button{padding:7px 10px;font-size:11px}.clean-catalog .heart-button{right:9px;top:9px}}
   </style>
 </head>
 <body>
@@ -97,7 +97,7 @@
     </section>
     <section class="info" style="font-size:14px;max-width:760px"><h2 style="color:var(--text);font-size:24px;font-weight:500">Mobile accessories in India</h2><p>Explore everyday phone grips, USB-C cables, chargers and screen protectors. Use the category and compatibility filters to narrow your selection. Product specifications, fit and delivery details are confirmed before purchase.</p></section>
   </main>
-  <footer class="site-footer"><span>© 2026 MOBORA · Made personal in Mumbai.</span><nav><a href="/mobile-cover">Mobile covers</a><a href="/wishlist">Wishlist</a><a href="/privacy">Privacy</a></nav></footer>
+  <footer class="clean-footer"><div class="clean-footer-inner"><div><a class="logo" href="/">MOBORA<span>✳</span></a><p>Your phone. Your story.<br>With love, Mumbai.</p></div><div><h3>Shop</h3><a href="/mobile-cover">Mobile covers</a><a href="/accessories">Mobile accessories</a></div><div><h3>Help &amp; information</h3><a href="/account">Sign in / register</a><a href="/orders">Track your order</a><a href="/privacy">Privacy &amp; orders</a><a href="/custom-phone-covers-mumbai">Mumbai cover guide</a></div></div><div class="clean-footer-bottom"><span>© 2026 MOBORA</span><span>Made personal. Made in your style.</span></div></footer>
 </div>
 <div class="toast" id="toast" role="status"></div>
 <script>
