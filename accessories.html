@@ -107,7 +107,42 @@
     .accessory-phone-grip .camera-block:after{content:'';position:absolute;right:6px;bottom:9px;width:7px;height:7px;border-radius:50%;background:#f4d58e}
     .accessory-phone-grip .grip-art{position:absolute;right:21px;bottom:35px;width:63px;height:63px;border-radius:50%;display:grid;place-items:center;background:#bc5d31;color:#f9d9b2;font-size:42px;line-height:1;box-shadow:inset -7px -8px 9px #7d352566}
     @media(max-width:900px){.clean-store .catalog-layout{grid-template-columns:1fr}.filter-sidebar{display:none}.filter-sidebar.filters-open{display:block}.mobile-filter-button{display:inline-flex}.clean-catalog .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-    @media(max-width:700px){.clean-store .clean-catalog.catalog{padding:0 16px 40px!important;margin-top:36px}.catalog-layout{gap:16px}.clean-toolbar{gap:10px}.sort-label{margin-left:auto}.sort-label select{padding:7px 8px}.clean-catalog .product-grid{grid-template-columns:1fr;gap:18px}.clean-catalog .product-art{height:300px}.clean-catalog .accessory-product-art{min-height:300px}}
+    @media(max-width:700px){.clean-store .clean-catalog.catalog{padding:0 16px 40px!important;margin-top:36px}.catalog-layout{gap:16px}.clean-toolbar{gap:10px}.sort-label{margin-left:auto}.sort-label select{padding:7px 8px}.clean-catalog .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}.clean-catalog .product-art{height:240px}.clean-catalog .accessory-product-art{min-height:240px}}
+    @media(max-width:425px){.clean-catalog .product-grid{grid-template-columns:1fr;gap:18px}.clean-catalog .product-art{height:300px}.clean-catalog .accessory-product-art{min-height:300px}}
+
+    /* Keep the accessories header pixel-consistent with the mobile-cover header. */
+    .clean-store > .clean-header{box-sizing:border-box;max-width:1440px;min-height:85px;margin:0 auto;padding:25px 4%;gap:25px;background:#111313;border-bottom:1px solid #2b2e2c}
+    .clean-store > .clean-header > .logo{font-size:28px;letter-spacing:-1.8px;margin-right:auto;color:#f6f1e9}
+    .clean-store > .clean-header > .logo span{color:#f27b54;margin-left:6px}
+    .clean-store > .clean-header > nav{display:flex;align-items:center;gap:30px;font-size:12px}
+    .clean-store > .clean-header > nav a,.clean-store > .clean-header > nav button{color:#c0c1ba;background:transparent;border:0;padding:0;font:inherit;cursor:pointer}
+    .clean-store > .clean-header > nav .nav-active{color:#f2d1b0;font-weight:700;position:relative}
+    .clean-store > .clean-header > nav .nav-active:after{content:'';position:absolute;left:0;right:0;bottom:-10px;height:2px;background:#f5c224}
+    .clean-store > .clean-header > .header-actions{display:flex;align-items:center;gap:20px}
+    .clean-store > .clean-header > .header-actions>a,.clean-store > .clean-header > .header-actions>button{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:0;border:0;background:transparent;color:#e7d4c4}
+    .clean-store > .clean-header > .header-actions svg{width:19px;height:19px;display:block}
+    .clean-store > .clean-header > .header-actions .theme-toggle{width:58px;height:30px;padding:0 7px;border:1px solid #536344;background:#26321e;border-radius:999px;justify-content:space-between;position:relative}
+    .clean-store > .clean-header > .header-actions .theme-toggle-thumb{width:23px;height:23px;border-radius:50%;background:#efc795;display:block;position:absolute;right:3px;top:2px}
+    .clean-store > .clean-header > .header-actions .theme-toggle svg{position:relative;z-index:1;width:14px;height:14px}
+    .clean-store > .clean-header > .header-actions .bag-button span{background:#f4f4f4;color:#26301f;border-radius:50%;font-size:10px;min-width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center}
+    @media(max-width:800px){
+      .clean-store > .clean-header{flex-wrap:wrap;gap:20px;padding:18px 5%}
+      .clean-store > .clean-header > nav{border-top:1px solid #303c26;order:3;justify-content:center;gap:30px;width:100%;padding-top:14px}
+    }
+    @media(max-width:640px){
+      .clean-store > .clean-header{gap:14px;min-height:0;padding:16px 18px 0}
+      .clean-store > .clean-header > .logo{font-size:24px}
+      .clean-store > .clean-header > .logo span{font-size:27px}
+      .clean-store > .clean-header > .header-actions{gap:14px}
+      .clean-store > .clean-header > nav{gap:32px;padding:8px 0;margin-top:3px}
+      .clean-store > .clean-header > nav a,.clean-store > .clean-header > nav button{font-size:12px;padding:7px 0}
+      .clean-store > .clean-header > nav .nav-active:after{bottom:-9px}
+    }
+    @media(max-width:425px){
+      .clean-store > .clean-header{padding-inline:14px}
+      .clean-store > .clean-header > nav{gap:clamp(14px,7vw,29px);font-size:11px}
+      .clean-store > .clean-header > nav a,.clean-store > .clean-header > nav button{font-size:11px}
+    }
   </style>
 </head>
 <body>
