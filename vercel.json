@@ -1,7 +1,9 @@
 {
   "rewrites": [
+    { "source": "/accessories", "destination": "/accessories.html" },
+    { "source": "/accessories/", "destination": "/accessories.html" },
     { "source": "/wishlist", "destination": "/wishlist.html" },
     { "source": "/wishlist/", "destination": "/wishlist.html" },
-    { "source": "/((?!_next/|covers/|catalog/|wishlist\\.html|favicon.ico).*)", "destination": "/index.html" }
+    { "source": "/((?!_next/|covers/|catalog/|accessories\\.html|wishlist\\.html|favicon.ico).*)", "destination": "/index.html" }
   ]
 }
