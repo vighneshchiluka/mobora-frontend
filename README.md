@@ -4,7 +4,7 @@
 
 MOBORA is a modern e-commerce platform for mobile accessories and personalized phone covers. It offers a clean shopping experience where customers can explore everyday mobile essentials, discover custom phone covers, and find products that match their style.
 
-🌐 **Live Website:** [https://mobora-mobile-accessories.vercel.app/accessories](https://mobora-mobile-accessories.vercel.app/accessories)
+🌐 **Live Website:** [https://mobora-mobile-accessories.vercel.app/accessories](https://mobora-mobile-accessories.vercel.app)
 
 ---
 
