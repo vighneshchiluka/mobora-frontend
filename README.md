@@ -61,13 +61,13 @@ Follow these steps to run MOBORA locally.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vighneshchiluka/moboro-store.git
+git clone https://github.com/vighneshchiluka/mobora-frontend.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd moboro-store
+cd mobora-frontend
 ```
 
 ### 3. Install dependencies
